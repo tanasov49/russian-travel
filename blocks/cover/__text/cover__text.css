@@ -1,0 +1,9 @@
+.cover__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #fff;
+    max-width: 360px;
+    margin: 32px auto 0;
+}

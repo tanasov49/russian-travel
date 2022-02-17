@@ -1,0 +1,12 @@
+.place__link {
+   font-size: 18px;
+   line-height: 22px;
+   color: #fff; 
+   font-weight: 400;
+   grid-column: 2;
+   grid-row: 1;
+   align-self: end;
+}
+.place__link:hover {
+   opacity: 0.8;
+}

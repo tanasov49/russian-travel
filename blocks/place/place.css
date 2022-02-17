@@ -1,0 +1,12 @@
+.place {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
+    grid-template-rows: 148px 48px minmax(0, max-content) minmax(0, max-content) 90px;
+    grid-gap: 0 40px;
+    max-width: 984px;
+    margin: 0 0 90px 0;
+}
+.place:last-child {
+    margin: 0;
+}
