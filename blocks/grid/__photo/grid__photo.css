@@ -1,3 +1,10 @@
 .grid__photo {
-    max-height: 213px;
+    min-height: 213px;
+    min-width: 284px;
+}
+@media screen and (max-width: 1024px) {
+    .grid__photo {
+        min-height: 225px;
+        min-width: 300px;
+    }  
 }

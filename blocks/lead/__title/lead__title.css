@@ -5,5 +5,8 @@
     color: #fff;
     max-width: 720px;
     text-align: center;
-    margin: 0 0 0 132px;
+    grid-column: 2;
+    margin: 0;
+    justify-self: center;
+    max-height: 100%;
 }

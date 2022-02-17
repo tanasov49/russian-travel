@@ -1,3 +1,14 @@
 .lead {
-    margin: 56px 0 0 148px;
+    margin: 56px auto 0;
+    display: grid;
+    grid-template-columns: 1fr minmax(min-content, 984px) 1fr;
+    justify-content: center;
+    grid-template-rows: minmax(0, max-content) minmax(0, max-content) minmax(min-content, 615px) minmax(0, max-content);
+}
+@media screen and (max-width: 1024px) {
+    .lead {
+        grid-template-columns: 1fr minmax(min-content, 928px) 1fr;
+        grid-template-rows: minmax(0, max-content) minmax(0, max-content) minmax(min-content, 580px) minmax(0, max-content);
+    }
+    
 }

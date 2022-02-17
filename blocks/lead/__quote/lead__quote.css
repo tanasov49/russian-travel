@@ -6,4 +6,5 @@
     color: #fff;
     margin: 8px 0 0 0;
     text-transform: uppercase;
+    grid-column: 2;
 }

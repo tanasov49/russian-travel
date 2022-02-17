@@ -1,5 +1,14 @@
 .grid {
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(min-content, 284px));
+   grid-template-rows: repeat(auto-fit, minmax(min-content, 213px));
    grid-gap: 16px;
+   justify-content: center;
+}
+@media screen and (max-width: 1024px) {
+   .grid {
+      grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+      grid-template-rows: repeat(auto-fit, minmax(min-content, 225px));
+      grid-gap: 14px;
+   }
 }

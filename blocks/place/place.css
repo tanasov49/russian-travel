@@ -10,3 +10,9 @@
 .place:last-child {
     margin: 0;
 }
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+        grid-template-rows: 148px 48px minmax(0, max-content) minmax(0, max-content) 90px;
+    } 
+}
