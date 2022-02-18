@@ -1,3 +1,9 @@
 .header__links-lang {
-    margin: 46px 46px 0 0;
+    margin: 0 48px 0 0;
+    align-self: center;
+}
+@media screen and (max-width: 768px) {
+    .header__links-lang {
+        margin: 0 24px 0 0;
+    }
 }

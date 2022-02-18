@@ -4,5 +4,10 @@
     line-height: 58px;
     color: #fff;
     margin: 0;
-    max-width: 690px;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .intro__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
 }

@@ -1,3 +1,21 @@
 .places-country {
     margin: 92px 0 0 100px;
 }
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .places-country {
+        margin: 92px 0 0 48px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .places-country {
+        margin: 88px 0 0 24px; 
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    .places-country {
+        margin: 64px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

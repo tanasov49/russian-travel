@@ -8,3 +8,13 @@
     text-transform: uppercase;
     grid-column: 2;
 }
+@media screen and (max-width: 768px) {
+    .lead__quote {
+        margin: 8px 0 0 24px;
+    }
+}
+@media screen and (max-width: 320px) {
+    .lead__quote {
+        margin: 8px 0 0 16px;
+    }
+}

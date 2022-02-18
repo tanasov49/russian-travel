@@ -1,14 +1,28 @@
 .grid {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(min-content, 284px));
+   grid-template-columns: repeat(4, minmax(min-content, 284px));
    grid-template-rows: repeat(auto-fit, minmax(min-content, 213px));
    grid-gap: 16px;
    justify-content: center;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1277px) {
    .grid {
-      grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+      grid-template-columns: repeat(3, minmax(min-content, 300px));
       grid-template-rows: repeat(auto-fit, minmax(min-content, 225px));
       grid-gap: 14px;
    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+   .grid {
+      grid-template-columns: repeat(2, minmax(min-content, 352px));
+      grid-template-rows: repeat(auto-fit, minmax(min-content, 264px));
+      grid-gap: 16px;
+   } 
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .grid {
+      grid-template-columns: repeat(1, minmax(min-content, 288px));
+      grid-template-rows: repeat(auto-fit, minmax(min-content, 216px));
+      grid-gap: 12px 0;
+   } 
 }

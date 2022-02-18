@@ -10,9 +10,23 @@
 .place:last-child {
     margin: 0;
 }
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1277px) {
     .place {
         grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
-        grid-template-rows: 148px 48px minmax(0, max-content) minmax(0, max-content) 90px;
+        grid-gap: 0 32px;
     } 
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .place {
+        grid-template-columns: minmax(min-content, 340px) minmax(min-content, 352px);
+        grid-gap: 0 28px;
+        margin: 0 0 73px 0;
+    }  
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place {
+        grid-template-columns: minmax(min-content, 320px);
+        grid-gap: 0;
+        grid-template-rows: repeat(8, max-content);
+    }
 }

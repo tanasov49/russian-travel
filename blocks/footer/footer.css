@@ -1,4 +1,11 @@
 .footer {
-    margin: 92px 0 0 0;
+    margin: 92px 48px 0 48px;
     padding: 0 0 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width: 1024px) {
+    .footer {
+        margin: 82px 24px 0 24px;
+    }
 }
