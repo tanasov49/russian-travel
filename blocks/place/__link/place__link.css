@@ -10,3 +10,10 @@
 .place__link:hover {
    opacity: 0.8;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+   .place__link {
+      order: 2;
+      margin: 12px 0 0 16px;
+      align-self: start;
+   } 
+}

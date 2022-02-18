@@ -8,3 +8,10 @@
     margin: 0 0 34px 0;
     align-self: end;
 }
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .place__url-heading {
+        order: 1;
+        margin: 32px 0 0 16px;
+        align-self: start;
+    }
+}

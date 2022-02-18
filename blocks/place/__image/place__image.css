@@ -20,5 +20,7 @@
     .place__image {
         height: 320px;
         width: 320px;
+        order: 3;
+        margin: 32px 0 0 0;
     }
 }
