@@ -6,10 +6,3 @@
    margin: 0;
    text-decoration: none;
 }
-.header__link-lang:active {
-   text-decoration: underline;
-}
-.header__link-lang:hover {
-   text-decoration: underline;
-   opacity: 0.8;
-}
