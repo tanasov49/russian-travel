@@ -1,5 +1,4 @@
 @font-face {
-    font-family: "Arial";
     font-family: "Inter";
     font-weight: 900;
     font-style: normal;
@@ -7,7 +6,6 @@
     font-display: swap;
 }
 @font-face {
-    font-family: "Arial";
     font-family: "Inter";
     font-weight: 700;
     font-style: normal;
@@ -15,7 +13,6 @@
     font-display: swap;
 }
 @font-face {
-    font-family: "Arial";
     font-family: "Inter";
     font-weight: 400;
     font-style: normal;

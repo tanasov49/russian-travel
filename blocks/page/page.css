@@ -4,7 +4,7 @@ body {
 .page {
     margin: 0 auto;
     max-width: 1280px;
-    font-family: "Inter";
+    font-family: "Inter", "Arial";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
